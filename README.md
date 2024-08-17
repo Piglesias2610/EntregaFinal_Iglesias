@@ -8,11 +8,7 @@ Este es un proyecto web desarrollado con Django que se centra en la compra de pr
 Características Principales
 Modelos Incluidos:
 
-Curso: Maneja cursos disponibles.
-Estudiante: Controla la información de los estudiantes registrados.
-Profesor: Registra los profesores involucrados en los cursos.
-Entregable: Almacena los entregables y trabajos presentados.
-Productos:
+Consolas:Gestion de las consolas.
 Juego: Gestión de los juegos en venta.
 Funko: Control de los funkos disponibles.
 Periférico: Gestión de los periféricos relacionados con videojuegos.
