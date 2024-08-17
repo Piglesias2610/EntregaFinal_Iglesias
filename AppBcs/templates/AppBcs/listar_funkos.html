@@ -10,6 +10,8 @@
         <thead>
             <tr>
                 <th>Nombre</th>
+                <th>Personaje</th>
+                <th>Serie</th>
                 <th>Precio</th>
                 <th>Imagen</th>
                 <th>Acciones</th>
@@ -19,6 +21,8 @@
             {% for funko in funkos %}
             <tr>
                 <td>{{ funko.nombre }}</td>
+                <td>{{ funko.personaje }}</td>
+                <td>{{ funko.serie }}</td>
                 <td>${{ funko.precio }}</td>
                 <td><img src="{{ funko.imagen.url }}" alt="{{ funko.nombre }}" width="100"></td>
                 <td>

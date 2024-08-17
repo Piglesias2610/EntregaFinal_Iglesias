@@ -10,6 +10,8 @@
         <thead>
             <tr>
                 <th>Nombre</th>
+                <th>Género</th>
+                <th>Consola</th>
                 <th>Precio</th>
                 <th>Imagen</th>
                 <th>Acciones</th>
@@ -19,6 +21,8 @@
             {% for juego in juegos %}
             <tr>
                 <td>{{ juego.nombre }}</td>
+                <td>{{ juego.genero }}</td>
+                <td>{{ juego.consola }}</td>
                 <td>${{ juego.precio }}</td>
                 <td>
                     {% if juego.imagen %}
@@ -36,7 +40,7 @@
             </tr>
             {% empty %}
             <tr>
-                <td colspan="4" class="text-center">No hay juegos disponibles.</td>
+                <td colspan="6" class="text-center">No hay juegos disponibles.</td>
             </tr>
             {% endfor %}
         </tbody>
@@ -46,3 +50,4 @@
     {% endif %}
 </div>
 {% endblock %}
+

@@ -1,0 +1,27 @@
+{% extends 'AppBcs/base.html' %}
+{% load static %}
+
+{% block titulo %}Editar Perfil{% endblock %}
+
+{% block contenidoQueCambia %}
+<div class="container mt-4">
+    <h2 class="mb-4 text-center">Editar Perfil</h2>
+    
+    <form action="" method="POST" class="form" enctype="multipart/form-data">
+        {% csrf_token %}
+        
+        <!-- Formulario de edición del perfil -->
+        <div class="form-group mb-3">
+            {{ miFormulario.as_p }}
+        </div>
+        
+        <!-- Botones de cambiar contraseña y actualizar perfil -->
+        <div class="d-flex justify-content-center mt-4">
+            <a class="btn btn-secondary btn-lg rounded-pill me-2" href="{% url 'CambiarContraseña' %}">
+                Cambiar Contraseña
+            </a>
+            <input type="submit" class="btn btn-primary btn-lg rounded-pill" value="Actualizar">
+        </div>
+    </form>
+</div>
+{% endblock contenidoQueCambia %}
