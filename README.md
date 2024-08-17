@@ -139,16 +139,9 @@ Las plantillas HTML están organizadas por aplicación y utilizan el sistema de 
 ### Archivos Estáticos
 
 Los archivos estáticos como CSS y JS específicos para cada aplicación están en `static/users/` y `static/AppBcs/`.
-## Pruebas
 
-El proyecto incluye un conjunto básico de pruebas unitarias en `tests.py` para verificar el funcionamiento de las vistas y los modelos. Para ejecutar las pruebas:
 
-```bash
-python manage.py test
 
-### Contribución
-
-```markdown
 ## Contribución
 
 Si deseas contribuir a este proyecto, sigue estos pasos:
@@ -160,12 +153,17 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 5. Crea un Pull Request.
 
 Las contribuciones son bienvenidas y apreciadas.
+
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-## Autores
 
-Desarrollado Por Piero Alejandro Iglesias Perez
+Desarrollado por Piero Alejandro Iglesias Perez
+
+
+
+
+
 
 
 
